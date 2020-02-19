@@ -29,9 +29,9 @@ export class NgxMasonryDirective implements OnDestroy, AfterViewInit {
   }
 
   ngOnDestroy() {
-    if (isPlatformBrowser(this.platformId)) {
-      this._parent.remove(this._element.nativeElement);
-    }
+    //if (isPlatformBrowser(this.platformId)) {
+    //  this._parent.remove(this._element.nativeElement);
+    //}
   }
 
   /** When HTML in brick changes dinamically, observe that and change layout */
